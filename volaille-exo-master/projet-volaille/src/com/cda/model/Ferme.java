@@ -118,10 +118,9 @@ public final class Ferme {
 			Volaille vVolailleAVendreTmp = this.volaillesMap.get(vIdVolailleAVendre);
 			if (vVolailleAVendreTmp instanceof VolailleAbattable) {
 				boolean vSuppressionReussie = false;
-				if (vTypeVolaille == 0 && this.canards.contains(vVolailleAVendreTmp)) {
+				if (vTypeVolaille == 0 && this.canards.contains(vVolailleAVendreTmp) && ((Canard) vVolailleAVendreTmp).getPoids() >= Canard.getPoidsDAbattage()) {
 					vSuppressionReussie = this.canards.remove(vVolailleAVendreTmp);
-
-				} else if (vTypeVolaille == 1 && this.poulets.contains(vVolailleAVendreTmp)) {
+				} else if (vTypeVolaille == 1 && this.poulets.contains(vVolailleAVendreTmp) && ((Poulet) vVolailleAVendreTmp).getPoids() >= Poulet.getPoidsDAbattage()) {
 					vSuppressionReussie = this.poulets.remove(vVolailleAVendreTmp);
 				}
 				if(vSuppressionReussie) {

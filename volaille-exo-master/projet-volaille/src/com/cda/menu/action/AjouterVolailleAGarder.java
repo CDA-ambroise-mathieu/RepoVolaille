@@ -23,6 +23,7 @@ final class AjouterVolailleAGarder extends Action {
 
 			IHM_INS.afficher("choisissez un type de volaille :");
 			IHM_INS.afficher("\t0)- Paon");
+			IHM_INS.afficher("\t1)- Cygne");
 
 			int vTypeVolaille = IHM_INS.lireEntier();
 			if( LA_FERME.ajoutPossible(false, vTypeVolaille)) {
