@@ -21,6 +21,7 @@ public class Ihm {
 
 	public void trucQuiSertARien() {
 		System.out.println("Hello");
+		System.out.println("Test GitHub");
 	}
 
 	public void changerMode(boolean pInteractif, boolean pAfficherCommentaire) {
