@@ -11,6 +11,6 @@ public final class Cygne extends VolailleAGarder {
 	
 	@Override
 	protected String getTypeNom() {
-		return "Cygne";
+		return "Cygne , date d'accueil : "+super.getDateDAccueil();
 	}
 }

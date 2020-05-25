@@ -17,10 +17,12 @@
 1 	==> 7 ajouter une volaillle
 0	choisir un canard
 3,5 poids initial
-2 	==> 8 ajouter une volaillle à garder
-0	choisir un Paon
-2 	==> 8bis ajouter une volaillle à garder
-1	choisir un Cygne
+1 	==> 8 ajouter une volaillle
+0	choisir un canard
+3,5 poids initial
+1 	==> 9 ajouter une volaillle
+0	choisir un canard
+3,5 poids initial
 1 	==> 10 ajouter une volaillle
 0	choisir un canard ==> plus de places pour les canards
 3 	==> 11 afficher toutes les volailles
@@ -31,14 +33,8 @@
 6	==> 14 vendre une volaille
 0	
 CA-3
-2 	==> 14bis ajouter un Cygne
-1
 3 	==> 15 afficher toutes les volailles
-6	==> 15bis vendre une volaille
-0	
-PO-1
 2 	==> 16 ajouter un paon
 0
-3 	==>  afficher toutes les volailles
 3 	==> 17 afficher toutes les volailles
 0 	==> 18 quitter le programme
