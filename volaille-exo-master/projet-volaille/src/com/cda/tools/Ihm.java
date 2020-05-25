@@ -21,6 +21,7 @@ public class Ihm {
 
 	public void trucQuiSertARien() {
 		System.out.println("Hello");
+		
 	}
 
 	public void changerMode(boolean pInteractif, boolean pAfficherCommentaire) {
