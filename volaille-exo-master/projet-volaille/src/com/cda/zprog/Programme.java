@@ -1,14 +1,21 @@
 package com.cda.zprog;
 
+
 import java.util.TreeMap;
 
 import com.cda.menu.action.Action;
 import com.cda.menu.action.LesActions;
+import com.cda.tools.Utils;
+
 import static com.cda.tools.Ihm.IHM_INS;
 
 public class Programme {
 
 	public static void main(String[] args) {
+		
+
+		Utils.initialisation();
+		
 		IHM_INS.changerMode(false,true);
 		
 		TreeMap<Integer,Action> actions = new TreeMap<>();
